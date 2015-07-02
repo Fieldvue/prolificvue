@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @resource_type.type %>
+</p>
+
+<p>
+  <strong>Professional level:</strong>
+  <%= @resource_type.professional_level_id %>
+</p>
+
+<%= link_to 'Edit', edit_resource_type_path(@resource_type) %> |
+<%= link_to 'Back', resource_types_path %>
