@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* Color Combination */
+  $blue:       #00abff;
+  $darkblue:   #0078b3;
+  $lightblue:  #33bcff;
+  $red:        #ff002c;
+  $yellow:     #ffd400;
+  $green:      #00ff54;
+  $lime:       #abff00;
+  $purple:     #ff00ab;
+  $orange:     #ff5400;
+  $white:      #fff;
+  $lightgray:  #f7f7f7;
 
 /* Main marketing message and sign up button */
 
@@ -21,6 +33,25 @@
 
 .row .btn {
   color: #fff;
+}
+
+.details {
+  height: 400px;
+}
+.jumbo {
+  background-color: $blue; //#00abff !important;
+  color: #fff !important;
+  margin: 0 -9999rem;
+  h2 {
+    color: #fff;
+  }
+  .btn {
+    color: $darkblue;
+    &:hover {
+      color: $white;
+      background-color: $blue;
+    }
+  }
 }
 
 
